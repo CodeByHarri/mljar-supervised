@@ -19,7 +19,6 @@ from supervised.utils.config import LOG_LEVEL
 logger = logging.getLogger(__name__)
 logger.setLevel(LOG_LEVEL)
 
-import dtreeviz
 from sklearn.tree import _tree
 
 from supervised.utils.subsample import subsample
